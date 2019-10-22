@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "privates",
+  "info": {
+    "name": "private",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "message": {
+      "type": "string"
+    }
+  }
+}

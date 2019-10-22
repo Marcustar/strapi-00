@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fruits",
+      "handler": "Fruit.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fruits/count",
+      "handler": "Fruit.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fruits/:id",
+      "handler": "Fruit.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/fruits",
+      "handler": "Fruit.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fruits/:id",
+      "handler": "Fruit.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fruits/:id",
+      "handler": "Fruit.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
